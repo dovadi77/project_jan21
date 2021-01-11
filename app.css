@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700;800&display=swap");
+@import url("https://use.typekit.net/qkv8zky.css");
+
+body {
+  color: #1e1e1e;
+}
+
+h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 53px;
+  line-height: 1em;
+}
+
+h1.small-title {
+  font-size: 48px;
+}
+
+h3 {
+  font-family: muli, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px !important;
+}
+
+h1.italic {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 38px !important;
+  line-height: 1.15em !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul.list-show {
+  list-style-type: disc;
+}
+
+li {
+  padding-bottom: 8px;
+}
+
+ul.symbol-checklist {
+  list-style-type: "✔";
+}
+
+p {
+  padding-bottom: 16px;
+  font-family: "Karla", sans-serif;
+  font-size: 19px;
+}
+
+p.list {
+  padding: 0;
+  font-family: "Karla", sans-serif;
+  font-size: 19px;
+}
+
+iframe.ratio-16by9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.iframe-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  display: block;
+}
+
+.muli {
+  font-family: muli, sans-serif;
+  font-size: 22px;
+}
+
+.karla {
+  font-family: "Karla", sans-serif;
+  font-size: 19px;
+}
+
+.font-19px {
+  font-size: 19px;
+}
+
+.font-22px {
+  font-size: 22px;
+}
+
+.container.first {
+  padding: 80px 0;
+}
+
+.container.second {
+  padding: 50px 0;
+}
+
+.bg-gray {
+  background-color: #f2f2f2;
+}
+
+.primary-color {
+  color: #f16334;
+}
+
+.video-player {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 65%;
+  background-image: linear-gradient(#000 0%, #656565 50%, #000 50%, #000 100%);
+  border-radius: 1.2rem;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.95);
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 2.5%;
+  left: 2.5%;
+  bottom: 0;
+  right: 0;
+  width: 95%;
+  height: 95%;
+}
+
+.btn-primary {
+  font-family: "Karla", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+  background-color: rgb(241, 99, 52) !important;
+  border-color: rgb(241, 99, 52) !important;
+  border-radius: 3rem;
+  padding: 30px 48px !important;
+}
+
+.btn-primary:hover {
+  border-color: rgb(238, 132, 96) !important;
+  background-color: rgb(238, 132, 96) !important;
+}
+
+.color-list {
+  width: 22px;
+  height: 22px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.type-list-none {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none;
+  max-width: 650px;
+  float: none;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.list-font {
+  display: inline-block;
+  font-family: muli, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  z-index: 0;
+  line-height: 2.3em;
+}
+
+.icon-list {
+  display: inline-block;
+  margin: 0;
+  box-sizing: content-box;
+  user-select: none;
+}
+
+.list-padding {
+  padding-bottom: 8px;
+  margin-bottom: 0px;
+  color: rgb(30, 30, 30);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 40px 20px;
+  }
+  .container.second {
+    padding: 25px 20px;
+  }
+
+  h1.italic {
+    font-size: 23px !important;
+    line-height: 1em !important;
+  }
+
+  h1 {
+    font-size: 34px !important;
+    line-height: 1em !important;
+  }
+
+  h1.small-title {
+    font-size: 27px !important;
+  }
+
+  h3 {
+    font-size: 23px !important;
+  }
+
+  .responsive-iframe {
+    top: 6%;
+    left: 6%;
+    bottom: 0;
+    right: 0;
+    width: 88%;
+    height: 88%;
+  }
+  .btn-primary {
+    padding: 20px 32px !important;
+  }
+  .list-font {
+    font-size: 18px;
+    line-height: 1.4em;
+  }
+  .color-list {
+    width: 18px;
+    height: 18px;
+  }
+  .red-text {
+    color: #f16334;
+  }
+  .font-22px {
+    font-size: 19px;
+  }
+  .font-19px {
+    font-size: 18px;
+  }
+  em.font-19px {
+    font-size: 12px;
+  }
+}
