@@ -106,3 +106,19 @@ element_bisnis.forEach(element => {
     <li>${element}</li>
   `);
 });
+
+const benefit_agen = [
+  '<strong>Menikmati semua benefit Reseller seperti yang sudah disebutkan di atas.</strong>',
+  '<strong><span class="bg-yellow">Nama Anda akan muncul di website detoxfibro.com</span> yang diiklankan jutaan rupiah per hari.</strong>',
+  'Anda juga akan mendapat <strong><span class="bg-yellow">rekomendasi dari pusat</span></strong> karena <strong>Anda menjadi perwakilan brand Fibro</strong> di kota Anda.',
+  'Anda akan <strong>diperkenalkan sebagai Agen Fibro di komunitas Dusdusan.com</strong> (Ratusan ribu resellers), sehingga <strong><span class="bg-yellow">Resellers bisa secara manual menghubungi Anda untuk order Fibro</span></strong> dengan harga member kepada Anda.',
+  'Nama Anda akan muncul di sistem Dusdusan.com sebagai Agen untuk produk Fibro sehingga <strong><span class="bg-yellow">reseller secara otomatis akan order kepada Anda jika ada customers di kota Anda</span></strong> (Sistem ini akan dilaunch di akhir tahun 2020)',
+  '<strong><span class="bg-yellow">Agen di setiap daerah akan dibatasi</span></strong>, sehingga Anda bisa menguasai penjualan di kota itu. <strong>SIAPA CEPAT DIA DAPAT</strong>.',
+  '<strong>Relasi</strong> dengan pemilik brand Fibro <strong>lebih dekat</strong>.'
+]
+
+let benefitAgen = document.getElementById('benefitAgen');
+
+benefit_agen.forEach(element => {
+  $(benefitAgen).append(`<li>${element}</li>`);
+})

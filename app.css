@@ -87,6 +87,10 @@ iframe.ratio-16by9 {
   font-size: 19px;
 }
 
+.barlow {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
 .font-19px {
   font-size: 19px;
 }
