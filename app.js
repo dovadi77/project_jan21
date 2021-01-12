@@ -16,24 +16,38 @@ const list_success = ['Produk Teruji',
 let listSuccess = document.querySelector('#listSuccess');
 
 list_success.forEach(element => {
-  $(listSuccess).append(`<li class="list-padding">
-            <div class='row no-gutters'>
-              <div class='col-2 icon-list py-md-2 py-lg-2'>
-                <svg
-                  class="color-list px-3 px-md-5 px-lg-5"
-                  viewBox="0 0 512 512"
-                  style="color: rgb(7, 171, 57)"
-                >
-                  <path
-                    d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"
-                  ></path></svg>
-              </div>
-              <div class='col-10 list-font my-auto'>
-                ${element}
-              </div>
-            </div>
+  $(listSuccess).append(`<li class="list-padding list-font list-type">
+            <div class="list-container">
+            <svg class="icon-list" viewBox="0 0 512 512" data-id="icon-dot-circle-solid" data-name="" style="color: rgb(7, 171, 57) !important;">
+            <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path>
+        </svg>
+        </div>
+        <span class="list-text">
+                ${element}</span>
           </li>`);
 });
+
+
+const about_fibro = [
+  'Detoks harian, membersihkan saluran pencernaan, membuang kotoran sisa - sisa makanan.',
+  'Vitamin dan mineral dari ekstrak sayuran & buah - buahan dengan rasa lemon.',
+  'Suplemen pendamping untuk program penurunan berat badan.'
+]
+
+let aboutFibro = document.querySelector('#aboutFibro')
+
+about_fibro.forEach(element => {
+  $(aboutFibro).append(`<li class="list-padding list-font list-type">
+            <div class="list-container">
+            <svg class="icon-list" viewBox="0 0 512 512" data-id="icon-dot-circle-solid" data-name="" style="">
+            <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path>
+        </svg>
+        </div>
+        <span class="list-text">
+                ${element}</span>
+          </li>`);
+})
+
 
 const manfaat_fibro = [
   'Manfaat Fibro bisa langsung terasa dalam beberapa hari pemakaian.',
@@ -48,26 +62,18 @@ const manfaat_fibro = [
 let mFibro = document.querySelector('#manfaatFibro');
 
 manfaat_fibro.forEach(element => {
-  $(mFibro).append(`
-            <li class="list-padding">
-              <div class="row no-gutters">
-                <div class="col-2 icon-list py-md-2 py-lg-2">
-                  <svg
-                    class="color-list px-3 px-md-5 px-lg-5 primary-color"
-                    viewBox="0 0 512 512"
-                  >
-                    <path
-                      d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"
-                    ></path>
-                  </svg>
-                </div>
-                <div class="col-10 list-font my-auto">
-                  ${element}
-                </div>
-              </div>
-            </li>
-  `);
+  $(mFibro).append(`<li class="list-padding list-font list-type">
+            <div class="list-container">
+            <svg class="icon-list" viewBox="0 0 512 512" data-id="icon-dot-circle-solid" data-name="" style="">
+            <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path>
+        </svg>
+        </div>
+        <span class="list-text">
+                ${element}</span>
+          </li>`);
 });
+
+
 
 let testomoni = document.querySelector('#testimoni');
 for (let index = 0; index < 6; index++) {

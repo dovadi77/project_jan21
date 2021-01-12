@@ -55,6 +55,10 @@ p {
   font-size: 19px;
 }
 
+form {
+  font-family: "Karla", sans-serif;
+}
+
 p.list {
   padding: 0;
   font-family: "Karla", sans-serif;
@@ -108,7 +112,7 @@ iframe.ratio-16by9 {
 }
 
 .container.second {
-  padding: 50px 0;
+  padding: 20px;
 }
 
 .bg-gray {
@@ -153,28 +157,20 @@ iframe.ratio-16by9 {
   background-color: rgb(238, 132, 96) !important;
 }
 
-.color-list {
-  width: 22px;
-  height: 22px;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
-}
-
 .type-list-none {
   margin: 0 !important;
   padding: 0 !important;
   list-style: none;
-  max-width: 650px;
+}
+
+.type-list-container {
+  max-width: 600px;
   float: none;
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
 .list-font {
-  display: inline-block;
   font-family: muli, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -183,17 +179,55 @@ iframe.ratio-16by9 {
   line-height: 2.3em;
 }
 
+.list-text {
+  display: block;
+  z-index: 0;
+  line-height: 2.3em;
+}
+
 .icon-list {
-  display: inline-block;
-  margin: 0;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  vertical-align: middle;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  -webkit-box-sizing: content-box;
   box-sizing: content-box;
-  user-select: none;
+  color: #f16334;
+}
+
+.list-container {
+  padding: 10px;
+  margin: 0;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
 }
 
 .list-padding {
   padding-bottom: 8px;
   margin-bottom: 0px;
   color: rgb(30, 30, 30);
+}
+
+.list-type {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  word-break: break-word;
 }
 
 .bg-yellow {
@@ -205,7 +239,7 @@ iframe.ratio-16by9 {
     padding: 40px 20px;
   }
   .container.second {
-    padding: 25px 20px;
+    padding-top: 40px !important;
   }
 
   h1.italic {
@@ -226,6 +260,10 @@ iframe.ratio-16by9 {
     font-size: 23px !important;
   }
 
+  h3.red-text {
+    font-size: 19px !important;
+  }
+
   .responsive-iframe {
     top: 6%;
     left: 6%;
@@ -237,9 +275,16 @@ iframe.ratio-16by9 {
   .btn-primary {
     padding: 20px 32px !important;
   }
+  .list-container {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
   .list-font {
     font-size: 18px;
     line-height: 1.4em;
+  }
+  .list-text {
+    line-height: 1.2em !important;
   }
   .color-list {
     width: 18px;
