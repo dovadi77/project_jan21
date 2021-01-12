@@ -82,3 +82,27 @@ for (let index = 0; index < 6; index++) {
         </div>
   `);
 }
+
+const element_bisnis = [
+  '<strong>Produk</strong> yang sudah <strong>terbukti bagus</strong>(Sudah dijual lebih dari 2 tahun)',
+  'Konsumen <strong>mudah mendapatkan produk</strong>(Distribusi kami tersebar di seluruh Indonesia)',
+  'Fibro adalah produk yang <strong>bisa dikonsumsi habis</strong>, sehingga <strong>customers akan melakukan repeat order dari Anda</strong>.',
+  '<strong>Sales / Marketing Kit yang Lengkap.</strong>',
+  '<strong>Foto & Video Produk.</strong>',
+  '<strong>Konten Postingan & Iklan.</strong>',
+  '<strong>Testimoni Pembeli.</strong>',
+  '<strong>Testimoni Influencers.</strong>',
+  '<strong>Izin BPOM & Sertifikasi Halal</strong>',
+  '<strong>Template Chat Customers Service</strong>. Anda tidak lagi bingung menjawab pertanyaan customers.',
+  '<strong>Bonus untuk customers</strong>.Bonus ini bisa membantu customers repeat order dari Anda.',
+  '<strong>Pengiriman Cepat & Murah.</strong>',
+  'Setiap pembelian Anda akan mendapat poin. <strong>Poin dapat ditukarkan hadiah LANGSUNG TANPA DIUNDI</strong> berupa laptop, televisi, sampai Umroh.'
+]
+
+let elementBisnis = document.querySelector('#elementBisnis');
+
+element_bisnis.forEach(element => {
+  $(elementBisnis).append(`
+    <li>${element}</li>
+  `);
+});

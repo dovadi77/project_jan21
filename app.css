@@ -95,6 +95,10 @@ iframe.ratio-16by9 {
   font-size: 22px;
 }
 
+.font-28px {
+  font-size: 28px !important;
+}
+
 .container.first {
   padding: 80px 0;
 }
@@ -186,6 +190,10 @@ iframe.ratio-16by9 {
   padding-bottom: 8px;
   margin-bottom: 0px;
   color: rgb(30, 30, 30);
+}
+
+.bg-yellow {
+  background-color: yellow;
 }
 
 @media screen and (max-width: 768px) {
